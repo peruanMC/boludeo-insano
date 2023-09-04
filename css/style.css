@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.drumpad {
+    display: flex;
+}
+
+.key {
+    width: 80px;
+    height: 80px;
+    background-color: #3498db;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.2s;
+}
